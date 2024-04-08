@@ -5,6 +5,7 @@ authors = ["MVCLabs"]
 edition = "2021"
 description = "The Client Implementation for MVCApi."
 license = "MIT"
+repository = "https://github.com/mvc-labs/mvcapi-sdk-rust"
 
 [dependencies]
 serde = "^1.0"
