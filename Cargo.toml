@@ -1,8 +1,10 @@
 [package]
 name = "mvcapi"
 version = "3.0.11"
-authors = ["OpenAPI Generator team and contributors"]
-edition = "2018"
+authors = ["MVCLabs"]
+edition = "2021"
+description = "The Client Implementation for MVCApi."
+license = "MIT"
 
 [dependencies]
 serde = "^1.0"
