@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 **satoshi** | Option<**i64**> | Mvc value of the utxo(Irrelavant to token value) | [optional]
 **satoshi_string** | Option<**String**> | Mvc value of the utxo(In string format) | [optional]
 **height** | Option<**i64**> | The height of this utxo, -1 for unconfirmed utxo. | [optional]
-**is_ready** | Option<**bool**> | Is current nft transfered into sell contract, If not ready, the following fields will be null | [optional]
+**is_ready** | Option<**bool**> | Is current nft transferred into sell contract, If not ready, the following fields will be null | [optional]
 **sensible_id** | Option<**String**> | SensibleId of the token | [optional]
 **meta_txid** | Option<**String**> | The metanet tx describing the nft. | [optional]
 **meta_output_index** | Option<**i32**> | Symbol of the token. | [optional]

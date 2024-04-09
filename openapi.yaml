@@ -2121,7 +2121,7 @@ components:
           type: integer
           format: int64
         isReady:
-          description: Is current nft transfered into sell contract, If not ready, the following fields will be null
+          description: Is current nft transferred into sell contract, If not ready, the following fields will be null
           type: boolean
         sensibleId:
           description: SensibleId of the token
@@ -2194,7 +2194,7 @@ components:
           type: integer
           format: int64
         isReady:
-          description: Is current nft transfered into sell contract, If not ready, the following fields will be null
+          description: Is current nft transferred into sell contract, If not ready, the following fields will be null
           type: boolean
         sensibleId:
           description: SensibleId of the token
