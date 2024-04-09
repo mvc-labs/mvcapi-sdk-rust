@@ -47,7 +47,7 @@ pub struct ContractNftSellUtxo {
     /// The height of this utxo, -1 for unconfirmed utxo.
     #[serde(rename = "height", skip_serializing_if = "Option::is_none")]
     pub height: Option<i64>,
-    /// Is current nft transfered into sell contract, If not ready, the following fields will be null
+    /// Is current nft transferred into sell contract, If not ready, the following fields will be null
     #[serde(rename = "isReady", skip_serializing_if = "Option::is_none")]
     pub is_ready: Option<bool>,
     /// SensibleId of the token
